@@ -1,5 +1,5 @@
 
-import subprocess
+import subprocess  
 
 # Retrieve the meta data of available Wi-Fi profiles
 meta_data = subprocess.check_output(['netsh', 'wlan', 'show', 'profiles'])
